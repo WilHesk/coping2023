@@ -43,9 +43,6 @@ const Navbar = () => {
                     <Link href='/#gallery'>Gallery</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/portfolio'>Our Work</Link>
-                </li>
-                <li className='p-4'>
                     <Link href='/contact'>Contact</Link>
                 </li>
             </ul>
