@@ -10,7 +10,7 @@ const Hero = ({heading, message, button, heading2, message2 }) => {
             <div>
               <h2 className='text-5xl font-normal '>{heading}</h2>
               <p className='py-5 text-xl '>{message}</p>
-              <Link href='https://www.justgiving.com/crowdfunding/copingfestival2022'>
+              <Link href='https://graystoneactionsports.co.uk/copingfestival'>
               <a target="_blank">
               <button className='px-8 py-2 border bg-pink'>{button}</button>
               </a>
