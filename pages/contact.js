@@ -11,7 +11,7 @@ export default function Contact() {
       </Head>
       
       <div> 
-      <Hero heading='Connect With Our Community' message='Website Under Construction!' button='Saturday 27th August Event' message2='@COPINGUK'/>     
+      <Hero heading='Connect With Our Community' message='Website Under Construction!' button='Saturday 17th June Event' message2='@COPINGUK'/>     
       </div>
     
     </div>
