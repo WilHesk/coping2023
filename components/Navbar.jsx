@@ -48,7 +48,7 @@ const Navbar = () => {
             </ul>
 
             {/* Mobile Button */}
-            <div onClick={handleNav} className='block sm:hidden z-10'>
+            <div onClick={handleNav} className='block sm:hidden z-100'>
                 {nav ? (
                     <AiOutlineClose size={20} style={{color: `${textColor}`}} /> 
                 ) : (
