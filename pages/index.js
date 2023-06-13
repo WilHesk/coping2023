@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Hero from '../components/Hero'
 import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';
+import Content from '../components/Content';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading='Stories For a Brighter Future' message='Our goal is to create an ongoing movement towards a more caring & conscious society. With your help we can build on our strong foundations & share stories that inspire positive change.' button='Saturday 17th June Event'/>
+      <Content heading='Skateboard Art Auction' subhead='Bid on a board created for the 17th June Festival - Auction live from Monday 19th June' button='BID NOW'/>
       <Slider slides={SliderData} />
     </div>
   );
