@@ -46,7 +46,7 @@ if (!Array.isArray(slides) || slides.length <= 0) {
                                     src={slide.image}
                                     alt='/' 
                                     width='1440' 
-                                    height='800' 
+                                    height='1000' 
                                     objectFit='cover'
                                 />
                             )}    

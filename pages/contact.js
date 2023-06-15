@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Hero from '../components/Hero';
+import Content from '../components/Content';
+
 
 export default function Contact() {
   return (
@@ -11,7 +12,9 @@ export default function Contact() {
       </Head>
       
       <div> 
-      <Hero heading='Connect With Our Community' message='Website Under Construction!' button='Saturday 17th June Event' message2='@COPINGUK'/>     
+      <Content heading='Join Our Community' subhead='Help us on our mission to improve Mental Health' time1='@CopingUK' event1="Follow us on instagram and DM if you'd like to collaborate" button='Tickets' button2='Bid Now'/>
+      
+        
       </div>
     
     </div>

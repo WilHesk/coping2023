@@ -29,9 +29,9 @@ const Navbar = () => {
         style={{ backgroundColor: `${color}` }} 
         className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
-        <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+        <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
             <Link href='/'>
-                <h1 style={{color: `${textColor}`}} className='font-normal text-4xl'>
+                <h1 style={{color: `${textColor}`}} className='font-normal text-2xl'>
                 Coping UK
                 </h1>
             </Link>
