@@ -2,9 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Content = ({heading, subhead, h31, p1, button, button2 }) => {
+const Contact = ({heading, subhead, h31, p1, button, button2 }) => {
   return (
-    <div id='auction' className='flex items-center justify-center h-auto pt-20 pb-20 mb-12 bg-fixed bg-center bg-dkgrey'>
+    <div className='flex items-center justify-center h-auto pt-20 pb-20 mb-12 bg-fixed bg-center bg-dkgrey'>
         <div  className='max-w-screen-md '>
             <div className='text-white '>
               <h2 className='pl-4 pr-4 pt-4 pb-2 text-5xl font-normal text-white '>{heading}</h2>
@@ -15,14 +15,14 @@ const Content = ({heading, subhead, h31, p1, button, button2 }) => {
             </div>
 
             <div className='pl-4'>
-            <Link href='https://www.jumblebee.co.uk/copingfestival2023auction'>
+            <Link href='https://www.instagram.com/copinguk/'>
             <a target="_blank">
               <Image 
                 objectFit='cover'
-                src="/art-auction-1.jpg"
+                src="/coping-gallery-image5.jpg"
                 width={600}
                 height={400}
-                alt="art auction boards"
+                alt="coping festival image"
               />
             </a>  
           
@@ -50,4 +50,4 @@ const Content = ({heading, subhead, h31, p1, button, button2 }) => {
   ); 
 }
 
-export default Content
+export default Contact

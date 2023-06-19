@@ -44,7 +44,7 @@ if (!Array.isArray(slides) || slides.length <= 0) {
                             {index === current && (
                                 <Image 
                                     src={slide.image}
-                                    alt='/' 
+                                    alt='/Icon-40x40.svg' 
                                     width='1440' 
                                     height='1000' 
                                     objectFit='cover'

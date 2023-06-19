@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import React, {useEffect, useState} from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import Image from 'next/image';
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -30,14 +32,30 @@ const Navbar = () => {
         className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
         <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
-            <Link href='/'>
-                <h1 style={{color: `${textColor}`}} className='font-normal text-2xl'>
-                Coping UK
-                </h1>
-            </Link>
+            <div className='flex items-center'> 
+                <div className='mr-2'>
+                <Image
+                    src='/Icon-40x40.svg'
+                    alt='/' 
+                    width='30' 
+                    height='30' 
+                />
+                </div>
+
+                <Link href='/'>
+                    <h1 style={{color: `${textColor}`}} className='font-normal text-2xl hover:text-pink'>
+                    Coping UK
+                    </h1>
+                </Link>
+            </div>
+
+            
             <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
                 <li className='p-4'>
                     <Link href='/'>Home</Link>
+                </li>
+                <li className='p-4'>
+                    <Link href='/#auction'>Auction</Link>
                 </li>
                 <li className='p-4'>
                     <Link href='/#gallery'>Gallery</Link>
@@ -66,6 +84,9 @@ const Navbar = () => {
                 <ul>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-400'>
                         <Link href='/'>Home</Link>
+                    </li>
+                    <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-400'>
+                        <Link href='/#auction'>Auction</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-400'>
                         <Link href='/#gallery'>Gallery</Link>
