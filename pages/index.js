@@ -19,7 +19,7 @@ export default function Home() {
       subhead='Thanks for making it an absolute blast!' 
       h31='Skate Deck Art Auction' 
       p1="Bag yourself a one of a kind, hand painted deck created specifically for Coping Festival 2023. We're so grateful to the incredibly tallented artists who have donated their time and tallents to create a beautiful set of 16 one off skatboards available now on our auction. Withington Walls & Art Battle Manchester have currated a list of incredible artists to create these awesome, one of a kind decks for our art auction. 50% of the money raised for each board goes to the artist and 50% goes to a mental health charity chosen by the artist whose board sells for the most!"
-      button='2023 Recap' button2='Bid Now'/>
+      button='Bid Now'/>
       <Slider slides={SliderData} />
     </div>
   );
