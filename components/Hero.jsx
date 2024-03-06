@@ -3,11 +3,10 @@ import Link from 'next/link';
 
 const Hero = ({heading, message, button, button2, heading2, message2 }) => {
   return (
-    <div className='flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover custom-img'>
-        
+    <section className='flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover custom-img'>
         <div className='p-5 text-white mt-[8rem] mr-[10%] ml-[10%]'>
             <div>
-              <h2 className='text-5xl font-normal '>{heading}</h2>
+              <h1 className='text-5xl font-normal '>{heading}</h1>
               <p className='pt-1 pb-6 text-xl font-thin '>{message}</p>
             </div>
             <div>
@@ -17,9 +16,8 @@ const Hero = ({heading, message, button, button2, heading2, message2 }) => {
               </a>
               </Link>
             </div>
- 
         </div>
-    </div>
+    </section>
   ); 
 }
 
