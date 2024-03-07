@@ -9,10 +9,13 @@
   }
 }
 
-
 @layer utilities {
   .custom-img {
     background-image: url('/coping-hero-image1.jpg');
+  }
+
+  .onhp {
+    @apply opacity-0 absolute pointer-events-none
   }
 }
 
