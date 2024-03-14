@@ -16,8 +16,8 @@ const Navbar = () => {
     useEffect(() => {
         const changeColor = () => {
             if (window.scrollY >= 90) {
-                setColor('#ffffff');
-                setTextColor('#000000');
+                setColor('#20232b');
+                setTextColor('#ffffff');
             } else {
                 setColor('transparent');
                 setTextColor('#ffffff');
@@ -33,20 +33,14 @@ const Navbar = () => {
     >
         <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
             <div className='flex items-center'> 
-                <div className='mr-2'>
+                <div className='mr-2 pt-2'>
                 <Image
-                    src='/Icon-40x40.svg'
+                    src='/Logo-white-CopingUK.svg'
                     alt='/' 
-                    width='30' 
-                    height='30' 
+                    width='100' 
+                    height='100' 
                 />
                 </div>
-
-                <Link href='/'>
-                    <h1 style={{color: `${textColor}`}} className='font-normal text-2xl hover:text-pink'>
-                    Coping UK
-                    </h1>
-                </Link>
             </div>
 
             
