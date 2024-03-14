@@ -15,27 +15,9 @@ const Contact = ({heading, subhead, h31, p1, button}) => {
               <p className='font-thin '>{p1}</p>
             </div>
 
-            <div>
-              <Link href='https://www.instagram.com/copinguk/'>
-                <a target="_blank">
-                  <Image 
-                    objectFit='cover'
-                    src="/coping-gallery-image2.jpg"
-                    width={600}
-                    height={400}
-                    alt="coping festival photo"
-                  />
-                </a>  
-              </Link>
-            </div>
+            
 
-            <div className='pt-10 flex  flex-col items-center '>
-              <Link href='https://www.instagram.com/copinguk/'>
-                <a target="_blank" className='m-1 px-4 py-2 rounded bg-pink text-white hover:bg-white hover:text-dkgrey'>
-                  {button}
-                </a>
-              </Link>
-            </div>
+            
               
             </div>
         </section>    
