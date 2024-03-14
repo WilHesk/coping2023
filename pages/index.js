@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';
 import Auction from '../components/Auction';
+import Form from '../components/Form';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading='Stories For a Brighter Future' message='An ongoing movement towards a society that prioritises kindness.' button='2023 Recap' button2='Art Auction'/>
+      <Form heading='Sign up to our newsletter' message='Register to join our mailing list and register for early bird tickets.' formLabel='Email address' button='Sign up'/>
       <Auction 
       heading='Coping Festival 2023' 
       subhead='Thanks for making it an absolute blast!' 

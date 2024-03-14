@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Contact = ({heading, subhead, h31, p1, button}) => {
   return (
-    <div className='flex items-center justify-center h-auto pt-20 pb-20 mb-12 bg-fixed bg-center bg-dkgrey'>
+    <section className='flex items-center justify-center h-auto pt-20 pb-20 mb-12 bg-fixed bg-center bg-dkgrey'>
         <div  className='max-w-screen-sm px-7'>
             <div className='text-white pt-4'>
               <h2 className='pt-4 pb-1 text-5xl font-normal text-white '>{heading}</h2>
@@ -31,14 +31,14 @@ const Contact = ({heading, subhead, h31, p1, button}) => {
 
             <div className='pt-10 flex  flex-col items-center '>
               <Link href='https://www.instagram.com/copinguk/'>
-              <a target="_blank">
-              <button className='m-1 px-4 py-2 rounded bg-pink text-white hover:bg-white hover:text-dkgrey'>{button}</button>
-              </a>
+                <a target="_blank" className='m-1 px-4 py-2 rounded bg-pink text-white hover:bg-white hover:text-dkgrey'>
+                  {button}
+                </a>
               </Link>
             </div>
               
             </div>
-        </div>    
+        </section>    
   ); 
 }
 
