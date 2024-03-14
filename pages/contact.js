@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Contact from '../components/Contact';
+import Form from '../components/Form';
 
 export default function Home() {
   return (
@@ -11,12 +12,13 @@ export default function Home() {
       </Head>
       
       <Contact 
-      heading='Join Our Community' 
-      subhead='Follow us on Instagram to keep up to date' 
-      h31='@copinguk' 
-      p1="We're building our online presence at the moment, so the easiest way to keep in touch is on Instagram for now. Let us know what you're up to and tag us in your posts & stories!"
-      button="Follow"
+      heading='Coping UK' 
+      subhead='Stories for a brighter future' 
+      h31='' 
+      p1=""
       />
+
+      <Form heading='Join our community' message='Register for early bird tickets and join our community.' formLabel='Email address' button='Sign up'/>
       
     </div>
   );
