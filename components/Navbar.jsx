@@ -33,12 +33,12 @@ const Navbar = () => {
     >
         <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
             <div className='flex items-center'> 
-                <div className='mr-2 pt-2'>
+                <div className='pt-4 pl-2'>
                 <Image
                     src='/Logo-white-CopingUK.svg'
                     alt='/' 
-                    width='100' 
-                    height='100' 
+                    width='80' 
+                    height='80' 
                 />
                 </div>
             </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
             </ul>
 
             {/* Mobile Button */}
-            <div onClick={handleNav} className='block sm:hidden z-10'>
+            <div onClick={handleNav} className='block sm:hidden z-10 pr-10'>
                 {nav ? (
                     <AiOutlineClose size={30} style={{color: `${textColor}`}} /> 
                 ) : (

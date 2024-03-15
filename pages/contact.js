@@ -14,8 +14,7 @@ export default function Home() {
       <Contact 
       heading='Coping UK' 
       subhead='Stories for a brighter future' 
-      h31='' 
-      p1=""
+      
       />
 
       <Form heading='Join our community' message='Register for early bird tickets and join our community.' formLabel='Email address' button='Sign up'/>
