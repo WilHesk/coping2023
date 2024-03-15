@@ -6,7 +6,7 @@ const Form = ({heading, message, formLabel, button}) => {
         <div className='mx-auto max-w-screen-sm px-7'>
             <h2 className='text-5xl pb-1'>{heading}</h2>
             <p className='text-xl font-thin text-dkgrey'>{message}</p>
-            <form className='pt-4 flex items-end gap-8' action='/api/newsletter'>
+            <form className='pt-4 flex flex-col gap-8 sm:flex-row sm:items-end' action='/api/newsletter'>
                 <div className='flex flex-col gap-1'>
                     <label>{formLabel}</label>
                     <input type='email' name='email' required className='border border-dkgrey rounded'/>
