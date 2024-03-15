@@ -1,36 +1,18 @@
 import Link from 'next/link'
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import Image from 'next/image';
 
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-    const [color, setColor] = useState('transparent')
-    const [textColor, setTextColor] = useState('white')
 
     const handleNav = () => {
         setNav(!nav);
     };
 
-    useEffect(() => {
-        const changeColor = () => {
-            if (window.scrollY >= 90) {
-                setColor('#20232b');
-                setTextColor('#ffffff');
-            } else {
-                setColor('transparent');
-                setTextColor('#ffffff');
-            }
-        };
-        window.addEventListener('scroll', changeColor);
-    }, []);
-
   return (
-    <div 
-        style={{ backgroundColor: `${color}` }} 
-        className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
-    >
+    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-dkgrey'>
         <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
             <div className='flex items-center'> 
                 <div className='pt-4 pl-2'>
@@ -44,7 +26,7 @@ const Navbar = () => {
             </div>
 
             
-            <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
+            <ul className='hidden text-white sm:flex'>
                 <li className='p-4'>
                     <Link href='/'>Home</Link>
                 </li>
@@ -60,11 +42,11 @@ const Navbar = () => {
             </ul>
 
             {/* Mobile Button */}
-            <div onClick={handleNav} className='block sm:hidden z-10 pr-10'>
+            <div onClick={handleNav} className='block text-white sm:hidden z-10 pr-10'>
                 {nav ? (
-                    <AiOutlineClose size={30} style={{color: `${textColor}`}} /> 
+                    <AiOutlineClose size={30} /> 
                 ) : (
-                    <AiOutlineMenu size={30} style={{color: `${textColor}`}} />
+                    <AiOutlineMenu size={30} />
                 )}
             </div>
             {/* Mobile Menu */}
