@@ -15,12 +15,12 @@ const Navbar = () => {
     <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-dkgrey'>
         <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
             <div className='flex items-center'> 
-                <div className='pt-4 pl-2'>
+                <div className='py-2 pl-2'>
                 <Image
-                    src='/Logo-white-CopingUK.svg'
+                    src='/icon-white-copinguk.svg'
                     alt='/' 
-                    width='80' 
-                    height='80' 
+                    width='40' 
+                    height='40' 
                 />
                 </div>
             </div>

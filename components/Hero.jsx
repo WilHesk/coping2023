@@ -1,10 +1,19 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Hero = ({heading, message, button, }) => {
   return (
     <section className='flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover custom-img'>
-        <div className='p-5 text-white mt-[8rem] mr-[8%] ml-[8%]'>
+        <div className='text-white mx-[5%]'>
+            <div className='flex justify-center p-10'>
+              <Image
+                src='/logo-white-copinguk.svg'
+                alt='/' 
+                width='300' 
+                height='300' 
+              />
+            </div>
             <div>
               <h2 className='text-5xl font-normal '>{heading}</h2>
               <p className='pt-1 pb-6 text-xl font-thin '>{message}</p>
