@@ -5,13 +5,13 @@ import Image from 'next/image';
 const Hero = ({heading, message, button, }) => {
   return (
     <section className='flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover custom-img'>
-        <div className='text-white mx-[5%]'>
-            <div className='flex justify-center p-10'>
+        <div className='text-white mx-[10%]'>
+            <div className='flex justify-center py-10'>
               <Image
                 src='/logo-white-copinguk.svg'
                 alt='/' 
-                width='300' 
-                height='300' 
+                width='250' 
+                height='250' 
               />
             </div>
             <div>

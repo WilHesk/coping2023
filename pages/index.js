@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
-import Slider from '../components/Slider';
+import Strategy from '../components/Strategy';
 import { SliderData } from '../components/SliderData';
-import About from '../components/About';
+import Festival from '../components/Festival';
 import Form from '../components/Form';
 
 export default function Home() {
@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
       <Hero heading='Stories For a Brighter Future' message='An ongoing movement for our collective mental health.' button='Register now'/>
                   
-      <About 
-      heading='Coping Festival 2024' 
+      <Festival
+      heading='Coping Festival' 
       subhead='Skating | Creating | Wellbeing' 
       h31='Saturday 29th June' 
       p1="Join your community and together we will build an unforgettable story of courage, competition and collaboration."
@@ -27,7 +27,16 @@ export default function Home() {
       
       button='Register Now'/>
 
-      <Slider slides={SliderData} />
+      <Strategy
+      heading='Coping Strategy' 
+      subhead='some stuff' 
+      h31='Some more stuff' 
+      p1="Join your community and together we will build an unforgettable story of courage, competition and collaboration."
+      p2="Coping Festival 2024 will bring more individuals together to feel part of a caring community, raise more money for incredible causes that affect us all and tell the story of groups, businesses and brands who care about our collective mental health."
+      p3="Family crafts, beginner lessons and fun competitions early on will develop throughout the day into live music and hardcore skating later on with Battle of the Stone offering up a whopping £5000 prize pot thanks to Oakley with special skatable features in the pipeline to add to the excitement."
+      p4="Register to get access to early discount tickets for Coping Festival 2024 and join our mission to tell inspirational stories and bring together courageous change makers prioritising our collective mental health."
+      
+      button='Register Now'/>
 
       <Form heading='Get Early Ticket Access' message='Register for early bird tickets to Coping Festival 2024 and join our community.' formLabel='Email address' button='Sign up'/>
       

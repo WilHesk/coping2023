@@ -2,15 +2,21 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const About = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
+const Slider = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
   return (
-    <section id='about' className='flex items-center justify-center h-auto pt-20 pb-20 mb-12 bg-fixed bg-center bg-dkgrey'>
+    <section id='strategy' className='flex items-center justify-center h-auto bg-fixed bg-center bg-white text-dkgrey'>
         <div  className='max-w-screen-sm px-7'>
-            <div className='text-white pt-4'>
-              <h2 className='pt-4 pb-1 text-5xl font-normal text-white '>{heading}</h2>
+          <Image
+            src='/coping-strategy-logo-grey-2024.svg'
+            alt='/' 
+            width='400' 
+            height='400' 
+          />
+            
+              <h2 className='pb-1 text-5xl font-normal'>{heading}</h2>
               <p className='text-xl font-light text-pink'>{subhead}</p>
-            </div>
-            <div className='text-white pt-3'>
+            
+            <div className='pt-3'>
               <p className='text-xl '>{h31}</p>
               <p className='font-thin pt-4'>{p1}</p>
               <p className='font-thin pt-4'>{p2}</p>
@@ -29,4 +35,4 @@ const About = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
   ); 
 }
 
-export default About
+export default Slider
