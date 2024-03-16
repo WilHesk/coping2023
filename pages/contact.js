@@ -13,11 +13,13 @@ export default function Home() {
       
       <Contact 
       heading='Coping UK' 
-      subhead='Stories for a brighter future' 
-      
+      subhead='Stories for a brighter future'
+      p="We'd love to hear from you if you have an interest in building community to benefit your business or organisation, yourself and our collective wellbeing." 
+      email='info@copinguk.org' 
+      insta='@copinguk'
       />
 
-      <Form heading='Join our community' message='Register for early bird tickets and join our community.' formLabel='Email address' button='Sign up'/>
+      <Form heading='Join our community' message='Join our community for early bird tickets and occasional updates on .' formLabel='Email address' button='Sign up'/>
       
     </div>
   );
