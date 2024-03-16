@@ -16,15 +16,16 @@ const Navbar = () => {
         <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
             <div className='flex items-center'> 
                 <div className='py-2 pl-2'>
-                <Image
-                    src='/icon-white-copinguk.svg'
-                    alt='/' 
-                    width='40' 
-                    height='40' 
-                />
+                    <Link href='/ hover:'>
+                    <Image
+                        src='/icon-white-copinguk.svg'
+                        alt='coping icon' 
+                        width='40' 
+                        height='40' 
+                    />
+                    </Link>
                 </div>
             </div>
-
             
             <ul className='hidden text-white sm:flex'>
                 <li className='p-4'>
