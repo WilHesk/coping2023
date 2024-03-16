@@ -11,15 +11,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
+      <Form heading='Get Early Ticket Access' message='Join our community for early access discount tickets to Coping Festival and other events.' formLabel='Email address' button='Sign up'/>
+
       <Contact 
       heading="Let's Create" 
       subhead="Stories for a Brighter Future"
-      p="We'd love to hear from you if you have an interest in building a community around your business or organisation, to benefit yourself and our collective wellbeing." 
+      p="We'd love to hear from you if you you have an interest in building a community around your business or organisation." 
       email='info@copinguk.org' 
       insta='@copinguk'
       />
 
-      <Form heading='Get Early Ticket Access' message='Join our community for early access discount tickets to Coping Festival and other events.' formLabel='Email address' button='Sign up'/>
+      
       
     </div>
   );

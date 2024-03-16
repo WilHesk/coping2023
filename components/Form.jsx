@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = ({heading, message, formLabel, button}) => {
   return (
-    <section className='py-20 pt-4 flex flex-col gap-8 sm:flex-row sm:items-end'>
+    <section className='pt-40 pb-10 flex flex-col gap-8 sm:flex-row sm:items-end'>
         <div className='mx-auto max-w-screen-sm px-7'>
             <h2 className='text-5xl pb-1'>{heading}</h2>
             <p className='text-xl font-light text-dkgrey'>{message}</p>
