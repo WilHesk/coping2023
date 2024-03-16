@@ -15,11 +15,11 @@ const Festival = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
               />
             </div>       
               <h2 className='text-2xl font-normal'>{heading}</h2>
-              <p className='pt-2 text-3xl font-normal text-pink text-transform: uppercase'>{subhead}</p>
+              <p className='pt-2 text-3xl font-normal text-pink uppercase'>{subhead}</p>
             
-            <div className='pt-4 font-light'>
+            <div className='pt-2 font-light'>
               <p className='text-2xl font-normal'>{h31}</p>
-              <p className='pt-2'>{p1}</p>
+              <p className='pt-4'>{p1}</p>
               <p className='pt-4'>{p2}</p>
               <p className='pt-4'>{p3}</p>
               <p className='pt-4 pb-8'>{p4}</p>
