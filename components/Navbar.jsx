@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
             <div className='flex items-center'> 
                 <div className='py-2 pl-2'>
-                    <Link href='/ hover:'>
+                    <Link href='/'>
                     <Image
                         src='/icon-white-copinguk.svg'
                         alt='coping icon' 
@@ -28,16 +28,16 @@ const Navbar = () => {
             </div>
             
             <ul className='hidden text-white sm:flex'>
-                <li className='p-4'>
+                <li className='p-4 hover:text-pink'>
                     <Link href='/'>Home</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:text-pink'>
                     <Link href='/#festival'>Festival</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:text-pink'>
                     <Link href='/#strategy'>Strategy</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:text-pink'>
                     <Link href='/contact'>Contact</Link>
                 </li>
             </ul>
