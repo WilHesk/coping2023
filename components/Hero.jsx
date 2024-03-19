@@ -6,7 +6,7 @@ const Hero = ({heading, message, festivaltitle, strategytitle, festival, strateg
   return (
     <section className='flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover custom-img '>
       
-      <div className='flex flex-col items-center justify-center text-white max-w-screen-md mt-20'>
+      <div className='flex flex-col items-center justify-center text-white mt-20'>
       
         <div className='flex flex-col items-center pb-2 sm:flex-row mx-10'>
         
@@ -14,8 +14,8 @@ const Hero = ({heading, message, festivaltitle, strategytitle, festival, strateg
             <Image
               src='/logo-white-copinguk.svg'
               alt='/' 
-              width='100' 
-              height='100' 
+              width='200' 
+              height='200' 
             />
           </div>
             
@@ -26,7 +26,7 @@ const Hero = ({heading, message, festivaltitle, strategytitle, festival, strateg
       
         </div>
       
-      <div className='flex flex-row items-center justify-center text-white leading-tight mx-[8%] w-auto max-w-screen-md'>
+      <div className='flex flex-row justify-center text-white leading-tight mx-[8%] w-auto max-w-screen-sm'>
         <div className='flex flex-col items-center py-2 sm:flex-row'>
           
           <div className='my-4 mx-4 flex justify-center flex-col bg-white text-dkgrey hover:bg-pink rounded-3xl'>
