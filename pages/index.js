@@ -16,11 +16,13 @@ export default function Home() {
       </Head>
       <Hero 
       heading="Stories For a Brighter Future" 
-      message="We’re here to build communities & represent you in your best light." 
-      button="Coping Festival" 
-      button2="Coping Strategy"
-      festival="Join our community"
-      strategy="Build your community"
+      message="We’re here to build communities & represent them in their best light." 
+      
+      festivaltitle="Coping Festival 2024. Looking for something meaninful to do?" 
+      festival="Click here to join us for Coping Festival on Saturday 29th June 2024 raising funds for mental health charities."
+      
+      strategytitle="Looking to build community around your business or org?"
+      strategy="Click here to find out more about how we can help you design and build websites that inspire and influence."
       />
                   
       <Festival
