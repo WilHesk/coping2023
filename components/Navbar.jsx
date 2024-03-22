@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-dkgrey'>
-        <div className='max-w-[1240px] m-auto flex justify-between pl-2 pt-1 items-center text-white'>
+        <div className='max-w-[1240px] m-auto flex justify-between pl-2 items-center text-white'>
             <div className='flex items-center'> 
-                <div className='py-2 pl-2'>
+                <div className='py-1 pl-2'>
                     <Link href='/'>
                     <Image
                         src='/icon-white-copinguk.svg'
