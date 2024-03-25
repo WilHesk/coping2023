@@ -16,7 +16,7 @@ const Form = ({heading, message, formLabel, button}) => {
                     <label htmlFor='name'>Name</label>
                     <input type='text' autoComplete='off' name='name' />
                 </div>
-                <button type='submit' className='px-4 py-2 rounded bg-pink text-white hover:bg-dkgrey hover:text-pink'>{button}</button>
+                <button type='submit' className='px-4 py-2 rounded border bg-dkpink text-white hover:bg-white hover:border-dkpink hover:text-dkgrey'>{button}</button>
             </form>
         </div>
     </section>

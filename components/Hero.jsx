@@ -30,7 +30,7 @@ const Hero = ({heading, message, festivaltitle, strategytitle, festival, strateg
         <div className='flex flex-col items-center p-2 sm:flex-row'>
           
           <div className='my-2 mx-8 flex justify-center flex-col hover:bg-pink hover:text-dkgrey border-2 border-pink rounded-3xl backdrop-blur-md w-72'>
-            <Link href='#festival'>
+            <Link href='/festival'>
               <a className='px-4'>
               <h1 className='pt-4 font-bold text-xl uppercase leading-6'>{festivaltitle}</h1> 
               <p className='py-1 font-light text-sm'>{festival}</p>
@@ -40,7 +40,7 @@ const Hero = ({heading, message, festivaltitle, strategytitle, festival, strateg
           </div>
 
           <div className='my-2 mx-8 flex justify-center flex-col hover:bg-pink hover:text-dkgrey border-2 border-pink rounded-3xl backdrop-blur-md w-72'>
-            <Link href='#strategy'>
+            <Link href='/strategy'>
               <a className='px-4'>
               <p className='pt-4 font-bold text-xl uppercase leading-6'>{strategytitle}</p>
               <p className='py-1 font-light text-sm'>{strategy}</p>

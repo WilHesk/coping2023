@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
   return (
-    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-dkgrey'>
+    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-30 backdrop-blur-lg bg-dkgrey bg-opacity-50'>
         <div className='max-w-[1240px] m-auto flex justify-between pl-2 items-center text-white'>
             <div className='flex items-center'> 
                 <div className='py-1 pl-2'>
@@ -32,10 +32,10 @@ const Navbar = () => {
                     <Link href='/'>Home</Link>
                 </li>
                 <li className='p-4 hover:text-pink'>
-                    <Link href='/#festival'>Festival</Link>
+                    <Link href='/festival'>Festival</Link>
                 </li>
                 <li className='p-4 hover:text-pink'>
-                    <Link href='/#strategy'>Strategy</Link>
+                    <Link href='/strategy'>Strategy</Link>
                 </li>
                 <li className='p-4 hover:text-pink'>
                     <Link href='/contact'>Contact</Link>
@@ -63,10 +63,10 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-400'>
-                        <Link href='#festival'>Festival</Link>
+                        <Link href='/festival'>Festival</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-400'>
-                        <Link href='#strategy'>Strategy</Link>
+                        <Link href='/strategy'>Strategy</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-400'>
                         <Link href='/contact'>Contact</Link>

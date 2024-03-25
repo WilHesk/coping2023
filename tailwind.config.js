@@ -9,10 +9,11 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
-      'pink': '#ed728e',
+      'pink': '#f089a1',
+      'dkpink': '#8b374a',
       'ltgrey': '#dddede',
       'midgrey': '#a2a09f',
-      'dkgrey': '#20232b',
+      'dkgrey': '#141d29',
       'ltblue': '#99c0df',
       'dkblue': '#17415b',
       'black': '#000000'
