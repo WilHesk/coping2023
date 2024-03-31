@@ -20,7 +20,7 @@ export default function Home() {
                   
       <Festivalclicker festivaltitle="Coping Festival" festivalp1="Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph" festivalclick="Click Here"/>
 
-      <Strategyclicker strategytitle="yo" strategy="yo yo" strategyclick="yo yo yo"      />
+      <Strategyclicker strategytitle="yo" strategyp1="yo yo" strategyclick="yo yo yo"      />
 
       <Form heading='Get Early Ticket Access' message='Register for early bird tickets to Coping Festival 2024 and join our community.' formLabel='Email address' button='Sign up'/>
       

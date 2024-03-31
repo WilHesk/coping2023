@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Festivalclicker = ({ festivaltitle, festivalp1, festivalclick }) => {
   return (
     <section id='festival' className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img'>
-      <div  className='p-5 h-3/4 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg bg-dkgrey bg-opacity-80 backdrop-blur-md flex-col sm:flex-row'>
+      <div  className='p-5 h-3/4 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg bg-dkgrey bg-opacity-80 backdrop-blur-md flex-col md:flex-row'>
         <div className='p-5'>
           <Image
             src='/coping-festival-skateboarding-stair-set.jpg'
@@ -15,7 +15,7 @@ const Festivalclicker = ({ festivaltitle, festivalp1, festivalclick }) => {
             className='rounded-xl '
           />
         </div> 
-        <div className='p-5 min-w-1/2 max-w-1/2'>
+        <div className='p-5 max-w-lg'>
           <div className='p-5 rounded-xl flex justify-center flex-col bg-white hover:bg-pink hover:text-dkgrey border-2 border-pink backdrop-blur-md'>
             <Link href='/festival'>
               <a className='px-4'>
