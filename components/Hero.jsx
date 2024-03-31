@@ -8,9 +8,9 @@ const Hero = ({heading, message}) => {
       
       <div className='flex flex-col items-center justify-center text-white mt-20'>
       
-        <div className='flex items-center pb-1 mx-10 flex-col sm:flex-row'>
+        <div className='flex items-center pb-1 mx-10 flex-col md:flex-row'>
         
-          <div className='-mt-10 px-10 sm:mt-0'>
+          <div className='-mt-10 px-10 md:mt-0'>
             <Image
               src='/logo-white-copinguk.svg'
               alt='/' 
@@ -19,14 +19,16 @@ const Hero = ({heading, message}) => {
             />
           </div>
             
-          <div className='flex flex-col text-center w-72 sm:text-left'>
-            <h2 className='text-3xl font-normal'>{heading}</h2>
-            <p className='font-light'>{message}</p>
+          <div className='flex flex-col text-center w-72 md:text-left'>
+            <h2 className='text-4xl font-normal'>{heading}</h2>
           </div>
       
         </div>
-      
-      
+
+        <div className='pt-6 px-12 flex flex-auto items-center justify-center w-auto text-center max-w-xl  md:pt-2'>
+          <p className='text-xl font-light'>{message}</p>
+        </div>
+
       </div>
     </section>
   ); 
