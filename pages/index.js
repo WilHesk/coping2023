@@ -23,7 +23,7 @@ export default function Home() {
       festivalsubtitle="Sat 22nd June - Graystone Action Sports"
       festivalp1="Looking for a meaningful & family friendly event? Join us for a 12hr festival of crafts, beginner lessons and fun competitions, developing in intensity throughout the day into live music and hardcore skating. This charity fundraiser also features Battle of the Stone, offering a whopping £6000 prize pot for individuals & teams." festivalclick="Click Here"/>
 
-      <Strategyclicker strategytitle="yo" strategyp1="yo yo" strategyclick="yo yo yo"      />
+      <Strategyclicker strategytitle="Communication" strategyp1="Does your organisation need help building community amongst customers & staff? From some simple advice to a full brand ID, complex website or social media strategy, with over 20 years learning how to design effectively, questioning what is helpful and ethical - we’re able to draw on our extensive experience and creative network to tell your inspirational stories." strategyclick="Click Here"      />
 
       <Form heading='Get Early Ticket Access' message='Register for early bird tickets to Coping Festival 2024 and join our community.' formLabel='Email address' button='Sign up'/>
       
