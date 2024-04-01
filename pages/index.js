@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero heading="Stories For a Brighter Future" message="Join our mission to build communities & tell inspiring stories that improve how we’re coping."/>
+      <Hero heading="Stories For a Brighter Future" message="We help kind & honest people design & build things which communicate inspiring messages of community & wellbeing."/>
                   
       <Festivalclicker festivaltitle="Coping Festival" festivalp1="Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph" festivalclick="Click Here"/>
 
