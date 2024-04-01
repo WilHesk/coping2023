@@ -5,14 +5,14 @@ import Link from 'next/link';
 const Strategyclicker = ({ strategytitle, strategyp1, strategyclick }) => {
   return (
     <section id='festival' className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img'>
-      <div  className='p-5 h-3/4 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg bg-dkgrey bg-opacity-80 backdrop-blur-md flex-col sm:flex-row'>
+      <div  className='p-5 h-5/6 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg bg-dkgrey bg-opacity-80 backdrop-blur-md flex-col sm:flex-row'>
         <div className='p-5'>
           <Image
-            src='/coping-festival-skateboarding-stair-set.jpg'
+            src='/Coping-strategy-logo-white-2024.svg'
             alt='coping festival skateboarder kickflipping stairset at graystone action sports' 
-            width='1000' 
-            height='1000'
-            className='rounded-xl '
+            width='400' 
+            height='400'
+            className='w-1/4'
           />
         </div> 
         <div className='p-5 min-w-1/2 max-w-1/2'>

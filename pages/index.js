@@ -16,9 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero heading="Stories For a Brighter Future" message="We help kind & honest people design & build things which communicate inspiring messages of community & wellbeing."/>
+      <Hero heading="Stories for a Brighter Future" message="We help courageous people design & build things that communicate inspiring messages of community & wellbeing."/>
                   
-      <Festivalclicker festivaltitle="Coping Festival" festivalp1="Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph Coping Festival Paragraph" festivalclick="Click Here"/>
+      <Festivalclicker
+      festivaltitle="Skating | Creating | Wellbeing"
+      festivalsubtitle="Sat 22nd June - Graystone Action Sports"
+      festivalp1="Looking for a meaningful & family friendly event? Join us for a 12hr festival of crafts, beginner lessons and fun competitions, developing in intensity throughout the day into live music and hardcore skating. This charity fundraiser also features Battle of the Stone, offering a whopping £6000 prize pot for individuals & teams." festivalclick="Click Here"/>
 
       <Strategyclicker strategytitle="yo" strategyp1="yo yo" strategyclick="yo yo yo"      />
 
