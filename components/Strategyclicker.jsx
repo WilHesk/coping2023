@@ -5,9 +5,8 @@ import Link from 'next/link';
 const Strategyclicker = ({ strategytitle, strategysubtitle, strategyp1, strategyclick }) => {
   return (
     <section id='festival' className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img'>
-      <div  className='h-5/6 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg bg-dkgrey bg-opacity-80 backdrop-blur-md flex-col md:flex-row'>
-        
-        <div className='py-4'>
+        <div className='h-5/6 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg flex-col md:flex-row'>
+          
           <div className='rounded-xl flex justify-center flex-col bg-white border-4 hover:border-pink border-dkpink backdrop-blur-md sm:p-10'>
             <Link href='/festival'>
               <a className='px-4'>
@@ -27,10 +26,7 @@ const Strategyclicker = ({ strategytitle, strategysubtitle, strategyp1, strategy
               </a>
             </Link>            
           </div>
-        </div>
-      </div>
-
-          
+        </div>         
     </section>      
   ); 
 }
