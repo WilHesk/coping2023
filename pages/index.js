@@ -13,35 +13,35 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero heading="Stories for a Brighter Future" message="We help courageous people design & build things that communicate inspiring messages of community & wellbeing." />
+      <Hero heading="Stories for a Brighter Future" message="We help courageous people design & build things that inspire community & wellbeing." />
 
       <TestComponent img={{
         src: '/coping-festival-girl-paints.jpg',
         alt: 'photo of child painting at coping festival'
       }} logo={<Image
-        src='/Coping-festival-logo-grey-2024.svg'
+        src='/Coping-festival-logo-white-2024.svg'
         alt='coping festival skateboarder kickflipping stairset at graystone action sports'
         width='250'
         height='120'
         className='object-conatin'
       />} title="Skating | Creating | Wellbeing" subtitle="Sat 22nd June - Graystone Action Sports" body={(
         <>
-          <p className='py-1 font-light text-md leading-6'>Looking for a meaningful & family friendly event? Join us for a 12hr festival of crafts, beginner lessons and fun competitions, developing in intensity throughout the day into live music and hardcore skating. This charity fundraiser also features Battle of the Stone, offering a whopping £6000 prize pot for individuals & teams.</p>
+          <p className='py-1 font-light text-md text-white leading-6'>Looking for a meaningful & family friendly event? Join us for a 12hr festival of crafts, beginner lessons and fun competitions, developing in intensity throughout the day into live music and hardcore skating. This charity fundraiser also features Battle of the Stone, offering a whopping £6000 prize pot for individuals & teams.</p>
         </>
       )} ctaText="Click Here" />
 
       <TestComponent img={{
-        src: '/coping-festival-girl-paints.jpg',
+        src: '/coping-festival-partington-pots.jpg',
         alt: 'photo of child painting at coping festival'
       }} logo={<Image
-        src='/Coping-strategy-logo-grey-2024.svg'
+        src='/Coping-strategy-logo-white-2024.svg'
         alt='coping festival skateboarder kickflipping stairset at graystone action sports'
         width='200'
         height='100'
         className='object-conatin'
-      />} title="Communication" body={(
+      />} title="Strategy | Identity | Websites" subtitle="Communication for Courageous Organisations" body={(
         <>
-          <p className='py-1 font-light text-md leading-6'>Does your organisation need help building community amongst customers & staff? From some simple advice to a full brand ID, complex website or social media strategy, with over 20 years learning how to design effectively, questioning what is helpful and ethical - we’re able to draw on our extensive experience and creative network to tell your inspirational stories.</p>
+          <p className='py-1 font-light text-md text-white leading-6'>Does your organisation need help building community amongst customers & staff? From some simple advice to a full brand ID, complex website or social media strategy. With over 20 years learning how to design effectively, questioning what is helpful and ethical - we’re able to draw on our extensive experience and creative network to tell your inspirational stories.</p>
         </>
       )} ctaText="Click Here" flipImage />
 

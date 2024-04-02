@@ -13,16 +13,16 @@ const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage })
                     className='object-contain'
                 />
             </div>
-            <div className='flex-1 rounded-xl flex justify-center flex-col bg-white border-4 hover:border-pink border-dkpink backdrop-blur-md sm:p-10'>
+            <div className='flex-1 flex justify-center flex-col px-2 sm:p-6'>
                 <Link href='/festival'>
                     <a className='px-4'>
                         <div className='pt-10 pb-6'>
                             {logo}
                         </div>
-                        <h1 className='py-1 font-bold text-xl uppercase leading-6'>{title}</h1>
-                        {subtitle && <h1 className='py-1 font-medium text-l text-dkpink leading-5'>{subtitle}</h1>}
+                        <h1 className='py-1 font-bold text-xl text-white uppercase leading-6'>{title}</h1>
+                        {subtitle && <h1 className='py-1 font-medium text-l text-pink leading-5'>{subtitle}</h1>}
                         {body}
-                        <p className='pt-1 pb-4 font-bold text-dkpink'>{ctaText}</p>
+                        <p className='pt-1 pb-4 font-bold text-pink hover:text-white'>{ctaText}</p>
                     </a>
                 </Link>
             </div>
