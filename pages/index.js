@@ -31,8 +31,8 @@ export default function Home() {
       )} ctaText="Click Here" />
 
       <TestComponent img={{
-        src: '/coping-festival-partington-pots.jpg',
-        alt: 'photo of child painting at coping festival'
+        src: '/coping-strategy-what-about-us.svg',
+        alt: 'hand drawn image of lots of sad people saying me and one happy person saying us'
       }} logo={<Image
         src='/Coping-strategy-logo-white-2024.svg'
         alt='coping festival skateboarder kickflipping stairset at graystone action sports'

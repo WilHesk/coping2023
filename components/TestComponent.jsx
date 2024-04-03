@@ -10,7 +10,7 @@ const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage })
                     alt={img.alt}
                     width='1000'
                     height='1000'
-                    className='object-contain'
+                    className='object-contain bg-white'
                 />
             </div>
             <div className='flex-1 flex justify-center flex-col px-2 sm:p-6'>
