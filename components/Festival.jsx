@@ -18,7 +18,21 @@ const Festival = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
         <p className='pt-2 text-2xl font-medium text-pink uppercase'>{subhead}</p>
 
         <div className='font-light text-white'>
+          
+        <Image
+              src='/Battle of the stone graphic 2024.svg'
+              alt="/coping festival battle of the stone graphic five thousand pounds prize"
+              width='1000'
+              height='1000'
+            />
+          
           <p className='text-lg font-medium'>{h31}</p>
+          <Image
+              src='/Battle of the stone team slamma graphic 2024.svg'
+              alt="/coping festival battle of the stone team graphic 2000 pounds prize"
+              width='1000'
+              height='1000'
+            />
           <p className='pt-4'>{p1}</p>
           
           <div className='py-10'>
