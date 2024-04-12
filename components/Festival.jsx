@@ -20,11 +20,28 @@ const Festival = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
         <div className='font-light text-white'>
           <p className='text-lg font-medium'>{h31}</p>
           <p className='pt-4'>{p1}</p>
+          
+          <div className='py-10'>
+            <Image
+              src='/coping-gallery-image1.jpg'
+              alt="/coping festival pottery workshop with Partington's pots"
+              width='2000'
+              height='1333'
+            />
+          </div>
           <p className='pt-4'>{p2}</p>
-          <p className='pt-4'>{p3}</p>
           <div className='py-10'>
             <Image
               src='/coping-gallery-image5.jpg'
+              alt='/coping festival female winners celebrate'
+              width='2000'
+              height='1333'
+            />
+          </div>
+          <p className='pt-4'>{p3}</p>
+          <div className='py-10'>
+            <Image
+              src='/coping-gallery-image4.jpg'
               alt='/'
               width='2000'
               height='1333'

@@ -20,6 +20,18 @@ const Strategy = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
 
         <div className='font-light'>
           <p className='text-lg font-medium'>{h31}</p>
+          
+          <div className='py-10'>
+
+          <Image
+                    src='/human kind illustration coping strategy.svg'
+                    alt="/human kind illustration"
+                    width='1000'
+                    height='1000'
+                    className='object-contain'
+                />
+          </div>
+          
           <p className='pt-4'>{p1}</p>
           <p className='pt-4'>{p2}</p>
           <p className='pt-4'>{p3}</p>
