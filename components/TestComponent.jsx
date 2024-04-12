@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage }) => (
+const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage, ctaLink}) => (
     <section id='festival' className='flex items-center justify-center min-h-screen bg-fixed bg-center bg-cover custom-img'>
         <div className={`h-5/6 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg flex-col ${flipImage ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
             <div className='flex-1'>
@@ -10,11 +10,11 @@ const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage })
                     alt={img.alt}
                     width='1000'
                     height='1000'
-                    className='object-contain bg-white'
+                    className='object-contain'
                 />
             </div>
             <div className='flex-1 flex justify-center flex-col px-2 sm:p-6'>
-                <Link href='/festival'>
+                <Link href={`${ctaLink}`}>
                     <a className='px-4'>
                         <div className='pt-10 pb-6'>
                             {logo}

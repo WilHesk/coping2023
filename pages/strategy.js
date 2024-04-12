@@ -18,12 +18,12 @@ export default function Home() {
 
       <Strategy
       heading='Strategic & Creative Communication Design' 
-      subhead='Logos & Websites' 
-      h31='Representing you in your best light' 
-      p1="Our network of creative, strategic & technically skilled professionals provide a service to help build your community. We advise, design and build honest storytelling tools to inspire and influence your community."
-      p2="Whatever your budget, we'll try our best to help you. From assembling a team to strategies, brand, design and build complex websites and apps to creating a simple logo or poster."
-      p3="Our specialist area is storytelling that builds community and our ideal customers are honest, kind people looking to influence and uplift those around them, not tread on them to get to the top."
-      p4="We design and build things that represent you in your best light. Courageous, honest and positive, your story is just getting started, let's collaborate to tell it in the most influential, inspirational way possible and build your community of loyal followers."
+      subhead="Representing you in your best light" 
+      h31="We're here to help those who are here to help" 
+      p1="Our network allows us to assemble creative & technical dream teams capable of building almost anything to communicate your message. From logo packs & basic websites through to custom apps, long term partnerships & large scale marketing events - we’re here to build you a team that blow your customer’s mind! "
+      p2="Before we get there though, your strong foundations need to be laid to make sure your story is told in the most inspirational & influential way, true to your values. The mission is to tell stories for brighter futures that uplift your audience and inspire them to act upon your guidance. We’re aiming for more than a win-win situation, we want to create the triple win - for you, your customer & life in general. If you’re selling something to churn out a quick profit, we’re not your team. If you want to uplift and inspire through your work, to create brighter futures for us all - we’re fully onboard and reporting for duty!"
+      p3="Our specialist area is storytelling that builds community and our ideal customers are honest, kind people looking to influence and uplift those around them, not push down others to get to the top."
+      p4="We design and build things that represent you in your best light. Courageous, honest and positive, your story is just getting started, let's collaborate to tell it in the most influential, inspirational way possible and build your community of loyal followers. Create or dig deeper into your foundations on any budget level - we’re here to help if you’re here to help."
       
       button='Build Your Community'/>
 
