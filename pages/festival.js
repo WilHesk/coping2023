@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
       
       <TestComponent img={{
-        src: '/coping-festival-girl-paints.png',
-        alt: 'photo of child painting at coping festival'
+        src: '/coping-festival-skate-into.png',
+        alt: 'small boy about to drop into ramp with his dad crouched behind him encouraging him'
       }} logo={<Image
         src='/Coping-festival-logo-white-2024.svg'
         alt='coping festival skateboarder kickflipping stairset at graystone action sports'
@@ -25,39 +25,58 @@ export default function Home() {
         className='object-conatin'
       />} title="Sat 22nd June" subtitle="Graystone Action Sports" body={(
         <>
-          <p className='py-1 font-extralight text-lg text-white leading-6'>Feel the good vibes we create when we come together for something bigger than ourselves! This year we develop our long standing partnership with Graystone Action Sports to bring you another edition of Coping Festival. Amongst family friendly activities that promote wellbeing through creativity, our charity fundraiser will also feature the legendary Battle of the Stone. The yearly competition offering a whopping £6000 prize pot for individuals & teams with prize matching donations to The Ben Raemers Foundation will happen later in the day as the energy of the event rises. As always Coping Festival will be a not for profit event & all festival entry fees will go to The Ben Raemers Foundation.</p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>Feel the good vibes we create when we come together for something bigger than ourselves! This year we develop our long standing partnership with Graystone Action Sports to bring you another edition of Coping Festival. All festival ticket income donated to The Ben Raemers Foundation. </p>
         </>
-      )} ctaLink="/festival" ctaText="Get Your Tickets Here" flipImage/>
+      )} ctaLink="/festival" ctaText="Sign Up Here" flipImage/>
+
+<TestComponent img={{
+        src: '/Battle of the stone graphic 2024.svg',
+        alt: 'Battle of the stone graphic 2024'
+      }} logo={<Image
+        src=''
+        alt=''
+        width=''
+        height=''
+        className='object-conatin'
+      />} title="" subtitle="" body={(
+        <>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>Family crafts, beginner lessons and fun competitions will develop throughout the day into live music and hardcore skating as Battle of the Stone kicks off. Do not miss this one, there's fun for all ages and ability levels. £5000 for the individual Battle and £1000 prize with £1000 donation to The Ben Raemers Foundation for the teams battle.</p>
+        </>
+      )} ctaLink="/festival" ctaText="Sign up here"/>
+
+<TestComponent img={{
+        src: '/coping-festival-skate-comp-stairs.png',
+        alt: 'skater flips down a stair set at graystone action sports'
+      }} logo={<Image
+        src=''
+        alt=''
+        width=''
+        height=''
+        className='object-conatin'
+      />} title="" subtitle="" body={(
+        <>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>
+      What better is there to do on the weekend of Go Skateboarding Day & Summer Solstice? Coping Festival is our community and we’d love you to join us. We collaborate to raise money for charities by organising events that tell an ongoing story of togetherness. We encourage creative expression, action sports and wellbeing. Coping Festival 2024 will bring more individuals together to feel part of a caring community, raise more money for incredible causes that affect us all and tell the story of groups, businesses and brands who care about our collective mental health.</p>
+        </>
+      )} ctaLink="/festival" ctaText="Sign up here" flipImage/>
 
 <TestComponent img={{
         src: '/Battle of the stone team slamma graphic 2024.svg',
         alt: 'coping festival battle of the stone team graphic 2000 pounds prize'
       }} logo={<Image
-        src='/Battle of the stone graphic 2024.svg'
-        alt='Battle of the stone graphic 2024'
-        width='1000'
-        height='1000'
+        src=''
+        alt=''
+        width=''
+        height=''
         className='object-conatin'
       />} title="" subtitle="" body={(
         <>
-          <p className='py-1 font-light text-md text-white leading-6'>Sign up for Battle of the Stone.</p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>New for 2024 is the TSA team slamma with £1000 up for grabs and £1000 donated to The Ben Raemers Foundation. The idea is that we can support any community from skate shops & parks to organisations and brands - if you've got a team of solid skaters that £1000 could be coming to your community!</p>
         </>
-      )} ctaLink="/festival" ctaText="Battle of the Stone Sign up" />
-                  
-      <Festival
-      heading="Graystone Action Sports - Saturday 22nd June"
-      subhead="Skating | Creating | Wellbeing" 
-      h31="Fundraising for The Ben Raemers Foundation on the weekend of Go Skateboarding Day & Summer Solstice"
-      p1="Coping Festival is our community and we’d love you to join us. We collaborate to raise money for charities by organising events that tell an ongoing story of togetherness. We encourage creative expression, action sports and wellbeing. "
-      p2="Coping Festival 2024 will bring more individuals together to feel part of a caring community, raise more money for incredible causes that affect us all and tell the story of groups, businesses and brands who care about our collective mental health."
-      p3="Family crafts, beginner lessons and fun competitions will develop throughout the day into live music and hardcore skating with Battle of the Stone offering up a whopping £5000 prize pot thanks to Oakley."
-      p4="Click below & register to get access to early discount tickets."
-      
-      button='Join Our Community'/>
+      )} ctaLink="/festival" ctaText="Sign up"/>
+                     
 
-      
-
-      <Form heading='Get Early Ticket Access' message='Register for early bird tickets to Coping Festival 2024 and join our community.' formLabel='Email address' button='Sign up'/>
+      <Form heading='Get Early Ticket Access' message='Register for early bird tickets to Coping Festival 2024 and join our community.' formLabel='Email address' button='Sign up here'/>
       
     </div>
   );

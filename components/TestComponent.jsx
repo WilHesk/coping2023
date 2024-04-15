@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage, ctaLink}) => (
     <section id='festival' className='flex items-center justify-center min-h-screen bg-fixed bg-center bg-cover custom-img'>
-        <div className={`h-5/6 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg flex-col ${flipImage ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
-            <div className='flex-1'>
+        <div className={`h-5/6 rounded-3xl flex items-center justify-center w-screen max-w-screen-lg flex-col pt-20 md:pt-0 ${flipImage ? 'flex-col-reverse md:flex-row-reverse' : 'md:flex-row'}`}>
+            <div className='flex-1 px-4'>
                 <Image
                     src={img.src}
                     alt={img.alt}
