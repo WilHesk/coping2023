@@ -2,22 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 const Festival = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
   return (
     <section id='festival' className='flex items-center justify-center h-auto bg-dkgrey'>
-      <div className='max-w-screen-sm px-7'>
-        <div className='-mb-20'>
-          <Image
-            src='/coping-festival-logo-white-2024.svg'
-            alt='coping festival logo'
-            width='320'
-            height='320'
-          />
-        </div>
-        <h2 className='pt-10 text-xl text-white font-light'>{heading}</h2>
-        <p className='pt-2 text-2xl font-medium text-pink uppercase'>{subhead}</p>
-
-        <div className='font-light text-white'>
+      <div className='max-w-screen-sm px-7'>        
           
         <Image
               src='/Battle of the stone graphic 2024.svg'
@@ -25,6 +14,9 @@ const Festival = ({ heading, subhead, h31, p1, p2, p3, p4, button }) => {
               width='1000'
               height='1000'
             />
+          <p className='pt-2 text-2xl font-medium text-pink uppercase'>{subhead}</p>
+
+        <div className='font-light text-white'>
           
           <p className='text-lg font-medium'>{h31}</p>
           <Image

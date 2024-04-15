@@ -19,10 +19,10 @@ const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage, c
                         <div className='pt-10 pb-6'>
                             {logo}
                         </div>
-                        <h1 className='py-1 font-bold text-xl text-white uppercase leading-6'>{title}</h1>
-                        {subtitle && <h1 className='py-1 font-medium text-l text-pink leading-5'>{subtitle}</h1>}
+                        <h1 className='pt-1 font-medium text-xl text-white uppercase leading-none'>{title}</h1>
+                        {subtitle && <h1 className='pb-1 font-medium text-xl text-white uppercase'>{subtitle}</h1>}
                         {body}
-                        <p className='pt-1 pb-4 font-bold text-pink hover:text-white'>{ctaText}</p>
+                        <p className='pt-1 pb-4 font-medium text-xl text-pink hover:text-white uppercase'>{ctaText}</p>
                     </a>
                 </Link>
             </div>
