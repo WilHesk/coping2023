@@ -13,7 +13,7 @@ const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage, c
                     className='object-contain'
                 />
             </div>
-            <div className='flex-1 flex justify-center flex-col px-2 sm:p-6'>
+            <div className='flex-1 flex justify-center flex-col px-2 '>
                 <Link href={`${ctaLink}`}>
                     <a className='px-4'>
                         <div className=''>
