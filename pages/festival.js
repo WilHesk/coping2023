@@ -47,7 +47,7 @@ export default function Home() {
         alt: 'coping festival battle of the stone team graphic 2000 pounds prize'
       }} title="" subtitle="" body={(
         <>
-          <p className='py-1 font-extralight text-lg text-white leading-6'>New for 2024 is the TSA team slamma with £1000 up for grabs and £1000 donated to The Ben Raemers Foundation. The idea is that we can support any community from skate shops & parks to organisations and brands - if you've got a team of solid skaters that £1000 could be coming to your community!</p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>New for 2024 is TBRF TEAM SLAMMA with £1000 up for grabs and £1000 donated to The Ben Raemers Foundation. The idea is that we can support any community from skate shops & parks to organisations and brands - if you've got a team of solid skaters that £1000 could be coming to your community!</p>
         </>
       )} ctaLink="/contact" ctaText="Sign up here"/>
 
@@ -56,7 +56,7 @@ export default function Home() {
         alt: 'coping festival battle of the stone team graphic 2000 pounds prize'
       }} title="" subtitle="" body={(
         <>
-          <p className='py-1 font-extralight text-lg text-white leading-6'>This year we're pairing world class artists and skaters to create one of a kind custom painted skateboard artwork. The artists will create completely unique artwork on decks that have been riden and doanted by pro skaters. These decks will tell a completely individual story about collaboration and expression and will be auctioned off to the highest bidders, with 50% of the funds going to the artist and 50% going to The Ben Raemers Foundation.</p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>This year we're pairing world class artists and skaters to create one of a kind custom painted skateboard artwork. The artists will create completely unique artwork on decks that have been ridden and donated by pro skaters. These decks will tell a completely individual story about collaboration and expression and will be auctioned off to the highest bidders, with funds going to the artist and 50% going to The Ben Raemers Foundation.</p>
         </>
       )} ctaLink="/contact" ctaText="" flipImage/>
 
