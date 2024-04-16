@@ -7,11 +7,11 @@ const Contact = ({ heading, subhead, email, insta, p }) => {
     <section className='bg-dkgrey flex flex-col'>
       <div className='mx-auto max-w-screen-sm px-7 pt-20'>
         <div className='text-white pt-4'>
-          <h2 className='pt-4 pb-1 text-5xl font-normal text-white '>{heading}</h2>
+          <h2 className='pt-4 text-5xl font-normal text-white '>{heading}</h2>
           <p className='text-xl font-light text-pink'>{subhead}</p>
-          <p className='text-light'>{p}</p>
+          <p className='pt-2 font-extralight'>{p}</p>
         </div>
-        <div className='text-white pt-10 pb-10'>
+        <div className='text-white pt-4 pb-10'>
           <div className='flex flex-col items-center py-2 sm:flex-row'>
             <Image
               src='/icon-email.svg'
