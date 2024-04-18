@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Hero from '../components/Hero'
-import Strategy from '../components/Strategy';
+import TestComponent from '../components/TestComponent';
 
 import Festival from '../components/Festival';
 import Form from '../components/Form';
@@ -15,17 +14,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-
-      <Strategy
-      heading='Strategic & Creative Communication Design' 
-      subhead="Representing you in your best light" 
-      h31="We're here to help those who are here to help" 
-      p1="Our network allows us to assemble creative & technical dream teams capable of building almost anything to communicate your message. From logo packs & basic websites through to custom apps, long term partnerships & large scale marketing events - we’re here to build you a team that blow your customer’s mind! "
-      p2="Before we get there though, your strong foundations need to be laid to make sure your story is told in the most inspirational & influential way, true to your values. The mission is to tell stories for brighter futures that uplift your audience & inspire them to act upon your guidance. We’re aiming for more than a win-win situation, we want to create the triple win - for you, your customer & life in general. If you want to inspire positive change through your work, to create brighter futures for us all - we’re fully onboard & reporting for duty!"
-      p3="Our specialist area is storytelling that builds community & our ideal customers are honest, kind people looking to influence & uplift those around them, not push down others to get to the top."
-      p4="We design & build things that represent you in your best light. Courageous, honest & positive, your story is worth telling well, let's collaborate to tell it in a way that builds your community of loyal followers. Create or dig deeper into your foundations on any budget level - we’re here to help if you’re here to help too."
-      
-      button='Build Your Community'/>
+      <TestComponent img={{
+        src: '/human kind illustration coping strategy.svg',
+        alt: 'coping festival logo'
+      }} title="" subtitle="Because your story needs telling" body={(
+        <>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>We help build things that communicate your important message and develop a community around the great work you do. Our network allows us to assemble creative & technical dream teams capable of building almost anything to communicate your message. From logo packs & basic websites through to custom apps, long term partnerships & large scale marketing events - we’re here to build you a team that blows your customer’s mind!</p>
+          
+        </>
+      )} ctaLink="/contact" ctaText="Book a free call" />
 
       <Form heading='Get Early Ticket Access' message='Register for early bird tickets to Coping Festival 2024 and join our community.' formLabel='Email address' button='Sign up'/>
       
