@@ -28,7 +28,7 @@ export default function Home() {
         alt: 'Battle of the stone graphic 2024'
       }} title="" subtitle="" body={(
         <>
-          <p className='py-1 font-extralight text-lg text-white leading-6'>Family crafts, beginner lessons and fun competitions will develop throughout the day into live music and hardcore skating as Battle of the Stone kicks off. Do not miss this one, there's fun for all ages and ability levels. £5000 for the individual Battle and £1000 prize with £1000 donation to The Ben Raemers Foundation for the teams battle.</p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>Family crafts, beginner lessons and fun competitions will develop throughout the day into live music and hardcore skating as Battle of the Stone kicks off. Do not miss this one, there's fun for all ages and ability levels. £5000 for the individual Battle and £1000 prize for the team rumble.</p>
         </>
       )} ctaLink="/contact" ctaText="Sign up here" flipImage />
 
@@ -47,7 +47,7 @@ export default function Home() {
         alt: 'coping festival battle of the stone team graphic 2000 pounds prize'
       }} title="" subtitle="" body={(
         <>
-          <p className='py-1 font-extralight text-lg text-white leading-6'>New for 2024 is TBRF TEAM SLAMMA with £1000 up for grabs and £1000 donated to The Ben Raemers Foundation. The idea is that we can support any community from skate shops & parks to organisations and brands - if you've got a team of solid skaters that £1000 could be coming to your community!</p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>New for 2024 is The Battle of the Stone Team Rumble with £1000 up for grabs for the winning team of three. The idea is that we can support any community from skate shops & parks to organisations and brands - if you've got a team of solid skaters that £1000 could be coming to your community!</p>
         </>
       )} ctaLink="/contact" ctaText="Sign up here" />
 
