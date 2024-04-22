@@ -15,7 +15,7 @@ const TextComponent = ({ img, logo, title, subtitle, body, ctaText, flipImage, c
             </div>
             <div className='flex-1 flex justify-center flex-col px-2 '>
                 <Link href={`${ctaLink}`}>
-                    <a className='px-4'>
+                    <a className='px-4' target="blank" >
                         <div className=''>
                             {logo}
                         </div>

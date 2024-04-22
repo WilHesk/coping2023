@@ -22,7 +22,17 @@ export default function Home() {
           <p className='py-1 font-extralight text-lg text-white leading-6'>We help build things that communicate your important message and develop a community around the great work you do. Our network allows us to assemble creative & technical dream teams capable of building almost anything to communicate your message. From logo packs & basic websites through to custom apps, long term partnerships & large scale marketing events - we’re here to build you a team that blows your customer’s mind!</p>
           
         </>
-      )} ctaLink="/contact" ctaText="Book a free call" />
+      )} ctaLink="https://calendly.com/copinguk/15min?month=2024-04" ctaText="Book a free call" />
+
+      <TestComponent img={{
+        src: '/budget graph.svg',
+        alt: 'coping festival logo'
+      }} title="" subtitle="Because your story needs telling" body={(
+        <>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>If you're on a tight budget we might be able to offer some advice that helps you see a problem in a different light and allows you to skill share or DIY. If your budget is not an issue then we can take care of everything for you and turn projects round quickly. Our primary interest is hearing about your plans to tell stories for a brighter future so click the link and book a 15min call to see how we can build a meaningful collaboration.</p>
+          
+        </>
+      )} ctaLink="https://calendly.com/copinguk/15min?month=2024-04" ctaText="Book a free call" flipImage/>
 
       <Form heading='Get Early Ticket Access' message='Register for early bird tickets to Coping Festival 2024 and join our community.' formLabel='Email address' button='Sign up'/>
       
