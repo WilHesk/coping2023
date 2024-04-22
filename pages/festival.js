@@ -49,7 +49,7 @@ export default function Home() {
         <>
           <p className='py-1 font-extralight text-lg text-white leading-6'>New for 2024 is The Battle of the Stone Team Rumble with £1000 up for grabs for the winning team of three. The idea is that we can support any community from skate shops & parks to organisations and brands - if you've got a team of solid skaters that £1000 could be coming to your community!</p>
         </>
-      )} ctaLink="/contact" ctaText="Sign up here" />
+      )} ctaLink="/contact" ctaText="Sign up here" flipImage/>
 
       <TestComponent img={{
         src: '/coping festival workshop graphic.svg',
@@ -58,7 +58,7 @@ export default function Home() {
         <>
           <p className='py-1 font-extralight text-lg text-white leading-6'>This year we're pairing world class artists and skaters to create one of a kind custom painted skateboard artwork. The artists will create completely unique artwork on decks that have been ridden and donated by pro skaters. These decks will tell a completely individual story about collaboration and expression and will be auctioned off to the highest bidders, with funds going to the artist and 50% going to The Ben Raemers Foundation.</p>
         </>
-      )} ctaLink="/contact" ctaText="" flipImage />
+      )} ctaLink="/contact" ctaText=""/>
 
       <TestComponent img={{
         src: '/coping-festival-skate-comp-young-lad.png',
@@ -67,7 +67,7 @@ export default function Home() {
         <>
           <p className='py-1 font-extralight text-lg text-white leading-6'>As always Coping Festival is a celebration of skating, creating & wellbeing focused on raising money & awareness for mental health charities, providing an inclusive environment & building communities. All of the festival entry fee goes to The Ben Raemers Foundation and includes use of Graystone's incredible facilities. Registration for Battle of the Stone is for skaters & teams who want to compete only and the entry fee goes towards the running costs of the event. The skate areas will be limited for festival ticket holders due to the competitions, however kids games and fun competitions will be held earlier in the day. A full timetable will be provided when tickets go on sale, but for now register for early access to secure your ticket.</p>
         </>
-      )} ctaLink="/contact" ctaText="Sign up here" />
+      )} ctaLink="/contact" ctaText="Sign up here" flipImage/>
 
 
       <Form heading='Get Early Ticket Access' message='Register for early bird tickets to Coping Festival 2024 and join our community.' formLabel='Email address' button='Sign up here' />
