@@ -33,8 +33,8 @@ export default function Home() {
       )} ctaLink="/contact" ctaText="Sign up here" flipImage />
 
       <TestComponent img={{
-        src: '/coping-festival-skate-comp-stairs.png',
-        alt: 'skater flips down a stair set at graystone action sports'
+        src: '/coping festival molly seed air.png',
+        alt: 'molly seed skateboarding airs out of ramp at coping festival graystone action sports'
       }} title="" subtitle="" body={(
         <>
           <p className='py-1 font-extralight text-lg text-white leading-6'>
@@ -52,7 +52,7 @@ export default function Home() {
       )} ctaLink="/contact" ctaText="Sign up here" flipImage/>
 
       <TestComponent img={{
-        src: '/coping festival workshop graphic.svg',
+        src: '/coping festival drawing.png',
         alt: 'coping festival battle of the stone team graphic 2000 pounds prize'
       }} title="" subtitle="" body={(
         <>
@@ -61,7 +61,7 @@ export default function Home() {
       )} ctaLink="/contact" ctaText=""/>
 
       <TestComponent img={{
-        src: '/coping-festival-skate-comp-young-lad.png',
+        src: '/coping festival workshop graphic.svg',
         alt: 'young boy skatboarding'
       }} title="" subtitle="" body={(
         <>

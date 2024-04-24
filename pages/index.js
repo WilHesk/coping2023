@@ -16,7 +16,7 @@ export default function Home() {
       <Hero heading="Stories for a Brighter Future" message="We help courageous people design & build things that inspire community & wellbeing." />
 
       <TestComponent img={{
-        src: '/coping-festival-girl-paints.png',
+        src: '/coping festival painting skateboard.png',
         alt: 'photo of child painting at coping festival'
       }} logo={<Image
         src='/Coping-festival-logo-white-2024.svg'
