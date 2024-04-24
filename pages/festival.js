@@ -33,7 +33,7 @@ export default function Home() {
       )} ctaLink="/contact" ctaText="Sign up here" flipImage />
 
       <TestComponent img={{
-        src: '/coping festival molly seed air.png',
+        src: '/coping-festival-art-wall.jpg',
         alt: 'molly seed skateboarding airs out of ramp at coping festival graystone action sports'
       }} title="" subtitle="" body={(
         <>
@@ -52,7 +52,7 @@ export default function Home() {
       )} ctaLink="/contact" ctaText="Sign up here" flipImage/>
 
       <TestComponent img={{
-        src: '/coping festival drawing.png',
+        src: '/coping-festival-grip-tape-artwork.jpg',
         alt: 'coping festival battle of the stone team graphic 2000 pounds prize'
       }} title="" subtitle="" body={(
         <>
