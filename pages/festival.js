@@ -19,7 +19,7 @@ export default function Home() {
         alt: 'coping festival logo'
       }} title="Sat 22nd June" subtitle="Graystone Action Sports" body={(
         <>
-          <p className='py-1 font-extralight text-lg text-white leading-6'>Feel the good vibes we create when we come together for something bigger than ourselves! This year we develop our long standing partnership with Graystone Action Sports to bring you another edition of Coping Festival. All festival ticket income donated to The Ben Raemers Foundation. </p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>Feel the good vibes we create when we come together for something bigger than ourselves! This year we develop our long standing partnership with Graystone Action Sports to bring you another edition of Coping Festival featuring the Battle of the Stone competition. All festival ticket income donated to The Ben Raemers Foundation. </p>
         </>
       )} ctaLink="https://ecom.roller.app/graystoneactionsports/copingfestival2024/en/home" ctaText="Get Tickets Here" />
 
@@ -28,8 +28,9 @@ export default function Home() {
         alt: 'Battle of the stone graphic 2024'
       }} title="" subtitle="" body={(
         <>
-          <p className='py-1 font-extralight text-lg text-white leading-6'>Family crafts, beginner lessons and fun competitions will develop throughout the day into live music and hardcore skating as Battle of the Stone kicks off. Do not miss this one, there's fun for all ages and ability levels. £5000 for the individual Battle and £1000 prize for the team rumble.</p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>Family crafts, beginner lessons and fun competitions will develop throughout the day into live music and hardcore skating - do not miss this one, there's fun for all ages and ability levels. We'll be crowning King & Queen of The Stone 2024 for bowl & street, all sharing a £5,000 prize purse courtesy of Oakley. The day kicks off at 10am with a fun kids jam in our Playground section stacked with prizes to stoke out the youth. Battle Of The Stone practice starts at 10am with qualifying getting underway at around 11am. Rough start times for finals across all disciplines are 3pm with prize giving at 5pm. The day climaxes with our band new Team Rumble, where we invite teams from shops, skate parks and brands to compete in 3 person teams for a healthy £1,000 in their back pocket. This £1,000 will also be matched and donated to The Ben Raemers Foundation. Times might change slightly, final schedule tbc early June.</p>
         </>
+
       )} ctaLink="https://ecom.roller.app/graystoneactionsports/copingfestival2024/en/home" ctaText="Get Tickets Here" flipImage />
 
       <TestComponent img={{
