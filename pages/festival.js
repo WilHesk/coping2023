@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <TestComponent img={{
-        src: '/Coping-festival-logo-white-2024.svg',
+        src: '/Coping-festival-2024.svg',
         alt: 'coping festival logo'
       }} title="Sat 22nd June" subtitle="Graystone Action Sports" body={(
         <>
