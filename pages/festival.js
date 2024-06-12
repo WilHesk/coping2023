@@ -19,7 +19,7 @@ export default function Home() {
         alt: 'coping festival logo'
       }} title="Sat 22nd June" subtitle="Graystone Action Sports" body={(
         <>
-          <p className='py-1 font-extralight text-lg text-white leading-6'>Feel the good vibes we create when we come together for something bigger than ourselves! This year we develop our long standing partnership with Graystone Action Sports to bring you another edition of Coping Festival featuring the Battle of the Stone competition. All festival ticket income donated to The Ben Raemers Foundation. </p>
+          <p className='py-1 font-extralight text-lg text-white leading-6'>Join us on Saturday 22nd June, from 10am until late and feel the good vibes we create when we come together for something bigger than ourselves! This year we develop our long standing partnership with Graystone Action Sports to bring you another edition of Coping Festival featuring Battle of the Stone. We combine skateboarding, music, art, and a variety of family-friendly activities to promote mental health awareness and raise funds for The Ben Raemers Foundation. Whether you're a seasoned skater wanting to compete for a share of £6k cash prize and a heap of awesome prizes, a complete beginner, or just looking for a fun day out with or without the family, we strive to make the event super inclusive and create something for everyone. We're learning each year how to do this and building our network of incredible humans who facilitate it!</p>
         </>
       )} ctaLink="https://ecom.roller.app/graystoneactionsports/copingfestival2024/en/home" ctaText="Get Tickets Here" />
 
