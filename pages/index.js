@@ -41,7 +41,7 @@ export default function Home() {
         className='object-conatin'
       />} title="Strategy | Identity | Websites" subtitle="Communication for Courageous Organisations" body={(
         <>
-          <p className='py-1 font-light text-md text-white leading-6'>Does your organisation need help building community amongst customers & staff? From some friendly advice and a logo, to a complex website, social media strategy or large scale marketing event. With over 20 years learning how to design & communicate effectively, using behavioural science ethically - we’re able to draw on our creative & technical dream team to tell your inspirational stories.</p>
+          <p className='py-1 font-light text-md text-white leading-6'>Does your organisation need help building community amongst customers & staff? From some friendly advice or a basic logo, to a complex website, brand ID or large scale marketing event. With over 20 years learning how to communicate effectively and a vast network of creative, respectful, rebels we’re able to draw on our creative & technical dream team to tell your inspirational stories.</p>
         </>
       )} ctaLink="/strategy" ctaText="Click Here" flipImage />
 
