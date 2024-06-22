@@ -24,11 +24,11 @@ export default function Home() {
         width='250'
         height='120'
         className='object-conatin'
-      />} title="Skating | Creating | Wellbeing" subtitle="Sat 22nd June - Graystone Action Sports" body={(
+      />} title="Skating | Creating | Wellbeing" subtitle="Today! - Graystone Action Sports" body={(
         <>
           <p className='py-1 font-light text-md text-white leading-6'>Looking for a meaningful & family friendly event? Join us for a 12hr festival of crafts, beginner lessons and fun competitions, developing in intensity throughout the day into live music and hardcore skating. This charity fundraiser also features Battle of the Stone, offering a whopping £6000 prize pot for individuals & teams.</p>
         </>
-      )} ctaLink="https://ecom.roller.app/graystoneactionsports/copingfestival2024/en/home" ctaText="Get Tickets Here" />
+      )} ctaLink="/Coping Festival Program 2024.pdf" ctaText="Download Event Guide" />
 
       <TestComponent img={{
         src: '/human kind illustration coping strategy.svg',
